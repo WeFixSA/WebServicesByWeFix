@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wefixnet/public_html/webservices/
+    - /bin/cp -R * $DEPLOYPATH
